@@ -1,0 +1,21 @@
+Source: ruby-fog-atmos
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb
+Standards-Version: 3.9.5
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-fog-atmos.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-fog-atmos.git;a=summary
+Homepage: 
+Testsuite: autopkgtest
+XS-Ruby-Versions: all
+
+Package: ruby-fog-atmos
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+# fog-core (>= 0), fog-xml (>= 0), rake (>= 0, development), minitest (>= 0, development), shindo (>= 0, development), turn (>= 0, development), pry (>= 0, development), coveralls (>= 0, development), rubocop (>= 0, development)
+Description: Module for the 'fog' gem to support Atmos.
+ This library can be used as a module for `fog` or as standalone provider
+ to use the Atmos in applications.
