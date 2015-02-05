@@ -14,7 +14,7 @@ XS-Ruby-Versions: all
 Package: ruby-fog-atmos
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
-Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-fog-core, ruby-fog-xml
 Breaks: ruby-fog (<< 1.25~)
 Replaces: ruby-fog (<< 1.25~)
 Description: Module for the 'fog' gem to support Atmos
