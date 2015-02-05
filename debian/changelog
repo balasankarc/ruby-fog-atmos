@@ -1,5 +1,5 @@
-ruby-fog-atmos (0.1.0-1) UNRELEASED; urgency=medium
+ruby-fog-atmos (0.1.0-1) experimental; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #777111)
 
- -- Balasankar C <balasankarc@autistici.org>  Thu, 05 Feb 2015 14:22:33 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Thu, 05 Feb 2015 11:46:01 +0530
